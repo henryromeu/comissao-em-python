@@ -1,37 +1,46 @@
-# 💸 Sistema de Processamento de Comissão — v2.0
+<h1 align="center">📊 Sistema de Comissão em Python</h1>
 
-Bem-vindo ao **Sistema de Comissão**! Este é um programa simples em Python que calcula automaticamente a comissão de vendedores com base em metas mensais. Ideal para pequenos negócios, equipes de vendas ou estudos de lógica de programação. 🚀
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python" alt="Python Version" />
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License" />
+  <img src="https://img.shields.io/badge/Versão-v2.0-yellow" alt="Versão" />
+</p>
 
----
-
-## 📋 Funcionalidades
-
-- 📈 Avaliação de desempenho com base no faturamento mensal.
-- 🎯 Três níveis de metas:
-  - Meta 1: R$5.000 — Comissão de 2.5%
-  - Meta 2: R$10.000 — Comissão de 6%
-  - Meta 3: R$100.000 — Recompensa especial de **1% da empresa**!
-- 💬 Mensagem motivacional se a meta não for atingida.
-- ⏱ Feedback visual com simulação de processamento.
+<p align="center">
+  Um sistema simples de cálculo de comissão para vendedores, baseado em metas mensais. <br>
+  Ideal para microempresas, freelancers ou estudantes de programação. 💼💰
+</p>
 
 ---
 
-## 🧠 Como Funciona
+## ⚙️ Funcionalidades
 
-O programa solicita:
-1. O nome do vendedor(a).
-2. O valor total das vendas no mês.
-
-Com base nesse valor, ele determina a comissão devida ou exibe uma mensagem motivacional.
+✅ Entrada de dados do vendedor  
+📈 Avaliação automática com base no faturamento  
+💵 Cálculo de comissão conforme metas atingidas  
+📣 Mensagem motivacional se a meta não for alcançada  
+⏱ Feedback visual com simulação de "processamento"
 
 ---
 
-## 💻 Como Usar
+## 🏁 Metas & Recompensas
 
-### 🔧 Requisitos
-- Python 3.x instalado no seu computador
+| Meta Alcançada | Faturamento | Comissão / Recompensa       |
+|----------------|-------------|------------------------------|
+| Meta 1         | R$5.000     | 2.5%                         |
+| Meta 2         | R$10.000    | 6%                           |
+| Meta Especial  | R$100.000   | 1% da empresa (fictício 😄)  |
+
+---
+
+## 💻 Como Rodar Localmente
+
+### ✅ Requisitos:
+- Python 3 instalado
 
 ### ▶️ Executar
 
 ```bash
-python comissao.py
+git clone https://github.com/henryromeu/comissao-em-python
+cd comissao-em-python
+python comissão.py
