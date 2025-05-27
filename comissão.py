@@ -55,3 +55,5 @@ else:
 
 # Mensagem final de agradecimento
 print("\nObrigado por usar nossos serviços!")
+
+# Henry Romeu, 2025
