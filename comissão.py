@@ -2,7 +2,7 @@
 import time
 
 # Exibe o título do sistema
-print("SISTEMA DE COMISSÂO")
+print("SISTEMA DE COMISSÃO")
 
 # Solicita ao usuário o nome do vendedor e armazena na variável 'nome'
 nome = input("\nDigite o nome do vendedor(a): ")
